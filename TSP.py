@@ -86,7 +86,7 @@ def draw_H_and_E(citys, H_path, energys):
     ax2.plot(np.arange(0, len(energys), 1), energys, color='red')
     plt.show()
 if __name__ == '__main__':
-    citys = np.array([[2, 6], [2, 4], [1, 3], [4, 6], [5, 5], [4, 4], [6, 4], [3, 2]])
+    citys = np.array([[1, 6], [3, 4], [2, 3], [7, 6], [8, 5], [4, 4], [6, 4], [3, 2]，[3, 3], [4, 5]])
     distance = get_distance(citys)
     N = len(citys)
     # 设置初始值
